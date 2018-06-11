@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyAndroidApp</string>
+    <string name="group_prompt">Choose a group</string>
+    <string-array name="groups">
+        <item>grupo 1</item>
+        <item>grupo 2</item>
+        <item>grupo 3</item>
+    </string-array>
+    <string-array name="menu">
+        <item>Novo documento</item>
+        <item>Listar todos</item>
+        <item>Progresso</item>
+    </string-array>
+</resources>

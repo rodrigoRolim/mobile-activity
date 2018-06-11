@@ -1,0 +1,15 @@
+<resources>
+    <string name="add_document">Adicionar documento</string>
+    <string name="update_document">Editar documento</string>
+    <string name="name_doc">Nome do doc:</string>
+    <string name="group">Grupo:</string>
+    <string name="scores">Pontos:</string>
+    <string name="nameEmpty">Nome vazio</string>
+    <string name="scoreEmpty">Pontos vazio</string>
+    <string name="confirm">confirmado</string>
+    <string name="yes">sim</string>
+    <string name="no">não</string>
+    <string name="ok">Ok</string>
+    <string name="alert">Aviso</string>
+
+</resources>
