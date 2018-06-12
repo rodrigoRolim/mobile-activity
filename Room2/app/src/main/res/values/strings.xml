@@ -11,5 +11,8 @@
     <string name="no">não</string>
     <string name="ok">Ok</string>
     <string name="alert">Aviso</string>
+    <string name="editar">Editar</string>
+    <string name="excluir">excluir</string>
+    <string name="deseja_realmente_apagar">deseja apagar?</string>
 
 </resources>

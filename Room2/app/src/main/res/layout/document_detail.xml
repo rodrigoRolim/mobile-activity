@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".DetailDocumentActivity">
+    <include
+        android:id="@+id/toolbar_details"
+        layout="@layout/toolbar_details" />
+
+    <TextView
+        android:layout_below="@+id/toolbar_details"
+        android:id="@+id/textView4"
+        android:layout_width="72dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginTop="88dp"
+        android:text=" Nome: "
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="43dp" />
+
+
+    <TextView
+        android:id="@+id/textName"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginStart="128dp"
+        android:text="xxx"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.029"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="128dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="130dp"
+        android:text="Score: "
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        android:layout_alignRight="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="46dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignStart="@+id/textName"
+        android:text="yyy"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.05"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textName"
+        android:layout_alignLeft="@+id/textName" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_marginTop="189dp"
+        android:text="Grupo:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_alignLeft="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_toEndOf="@+id/textView4"
+        android:text="zzz"
+        android:layout_toRightOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_toEndOf="@+id/textName"
+        android:text="pontos"
+        android:layout_toRightOf="@+id/textName" />
+
+</RelativeLayout>

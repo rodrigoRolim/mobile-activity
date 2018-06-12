@@ -16,19 +16,9 @@ public class Document {
     @NonNull
     private String nome;
     private int score;
-    private int group;
+    private String group;
 
-    /* Para utilizar o Room, caso exista construtor com parâmetros as variáveis dos parâmetros
-       devem ter o mesmo nome dos atributos persistidos da classe.
-
-       Caso um atributo persistido não sejm público, deve existir os métodos get e set
-       apropriadas para este atributo, e o nome dos métodos devem seguir as Convenções de código
-       do Java
-
-       É recomendável criar indices para os campos que armazenam chaves extrangeiras, caso não
-       faça é gerado um warning*/
-
-    public Document(String nome, int group, int score){
+    public Document(String nome, String group, int score){
 
         setNome(nome);
         setGroup(group);
@@ -52,9 +42,9 @@ public class Document {
         this.nome = nome;
     }
 
-    public int getGroup() { return group; }
+    public String getGroup() { return group; }
 
-    public void setGroup(int group) {
+    public void setGroup(String group) {
         this.group = group;
     }
 
